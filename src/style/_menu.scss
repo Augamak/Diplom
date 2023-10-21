@@ -1,0 +1,25 @@
+.menu {
+    color: $dark-gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 90px;
+
+        &-names{
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+    
+            &-name {
+                color: $dark-gray;
+
+            &:hover {
+                cursor: pointer;
+                color: $orange;
+                
+            }
+        }      
+    }
+}

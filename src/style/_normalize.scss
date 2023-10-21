@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header {
+    width: 1440px;
+    height: 96px;
+    
+}
+.menu {
+    width: 1260px;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none ;
+    text-decoration: none;
+}
