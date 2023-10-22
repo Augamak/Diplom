@@ -209,6 +209,10 @@
     align-items: center;
     gap: 20px;
 
+    &:hover {
+        cursor: pointer;
+    }
+
         &-icon {
             display: flex;
             justify-content: space-between;

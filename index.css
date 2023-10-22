@@ -4,21 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-}
-
-.header {
-  width: 1440px;
-  height: 96px;
-}
-
-.menu {
-  width: 1260px;
-  height: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -26,6 +11,25 @@ a {
 li {
   list-style: none;
   text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 96px;
+}
+
+.menu {
+  height: 20px;
+  padding: 16px;
+}
+
+.one {
+  height: 460px;
 }
 
 .header-white {
@@ -206,6 +210,9 @@ li {
   align-items: center;
   gap: 20px;
 }
+.header-gray-icons:hover {
+  cursor: pointer;
+}
 .header-gray-icons-icon {
   display: flex;
   justify-content: space-between;
@@ -246,4 +253,111 @@ li {
 .menu-names-name:hover {
   cursor: pointer;
   color: #FF7A00;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.one-left {
+  width: 40%;
+  height: 460px;
+}
+
+.one-top {
+  width: 228px;
+  height: 153px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: white;
+  padding-top: 20px;
+  top: 150px;
+  right: 630px;
+}
+.one-top-summer {
+  color: #262626;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.one-top-summer-sale {
+  display: flex;
+  justify-content: center;
+  color: #FF2E00;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding-bottom: 46px;
+}
+.one-top-summer-sale-date {
+  background-color: #262626;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.one-right {
+  width: 60%;
+  height: 460px;
+  background-color: #4172DC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.one-right-kimonos {
+  color: #FFF;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.one-right-kimonos-glam {
+  color: #FFF;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.one-right-kimonos-glam-click {
+  background-color: #4172DC;
+  border: none;
+  display: flex;
+  width: 243px;
+  height: 56px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-2, 8px);
+}
+.one-right-kimonos-glam-click-shop {
+  color: #FFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.one-right-kimonos-glam-click:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */

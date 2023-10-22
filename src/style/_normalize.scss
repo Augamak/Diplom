@@ -3,22 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.header {
-    width: 1440px;
-    height: 96px;
-    
-}
-.menu {
-    width: 1260px;
-    height: 20px;
-}
 a {
     text-decoration: none;
 }
@@ -27,3 +11,27 @@ li {
     list-style: none ;
     text-decoration: none;
 }
+
+body {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header {
+    
+    height: 96px;
+    
+}
+.menu {
+    
+    height: 20px;
+    padding: 16px;
+}
+
+.one {
+    
+    height: 460px;
+}
+
