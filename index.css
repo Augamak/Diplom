@@ -360,4 +360,20 @@ body {
 }
 .one-right-kimonos-glam-click:hover {
   cursor: pointer;
+}
+
+.two-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+
+.two-top-flash {
+  background-color: blue;
+  color: #000;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
 }/*# sourceMappingURL=index.css.map */
