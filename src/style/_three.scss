@@ -1,0 +1,153 @@
+.three {
+    display: flex;
+    flex-direction: column;
+}
+.three-top {
+   display: flex;
+   justify-content: space-between;
+   padding: 48px 90px;
+
+    &-flash {
+        color: $color-black;
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+
+        &-view {
+            color: $color-gray;
+            font-family: Lato;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+}
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 8px;
+   
+    &-card {
+        width: 407px;
+        height: 437px;
+        display: flex;
+        border-radius: 5px;
+        
+
+        &-new {
+            height: 105%;
+           display: flex;
+           flex-direction: column;
+           background-color: $color-gray;
+           border-radius: 8px;
+
+
+
+           &-womans {
+            width: 100%;
+        }
+
+           &-green {
+                border: none;
+                background-color: $green;
+                border-radius: 4px;
+                position: absolute;
+                margin: 10px;
+
+                :hover {
+                    cursor: pointer;
+                }
+
+                &-text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $color-white;
+                    font-family: Lato;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    padding: 3px 6px;
+                    gap: 4px;
+
+                    &-img{
+                        line-height: 0;
+                        gap: 4px;
+                    }
+                }
+           }
+
+        }
+        
+    }
+}  
+.cards-card-new-womans {
+    display: inline-block;
+}
+.card-text {
+    color: $color-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    &-name {
+        font-family: Lato;
+    
+        &-cool {
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px;
+            padding-bottom: 10%;
+            
+
+            &-dotted {
+                color: $light-white-l;
+                padding-bottom: 10%;
+            }
+        }
+    }
+}
+
+.price {
+    display: flex;
+    background-color: $color-gray;
+    border-radius: 8px;
+    border-color: $color-white;
+    padding: 12px 24px;
+    gap: 8px;
+
+    :hover {
+        cursor: pointer;
+    }
+
+    &-numbers {
+        color: $color-white;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+
+        &-words {
+            color: $color-white;
+            font-family: Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+
+            
+            
+        }
+    }
+}

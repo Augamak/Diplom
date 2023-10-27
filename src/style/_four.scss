@@ -1,0 +1,27 @@
+.four {
+    display: flex;
+    flex-direction: column;
+}
+.four-top {
+   display: flex;
+   justify-content: space-between;
+   padding: 83px 90px 48px 90px;
+
+    &-flash {
+        color: $color-black;
+        font-family: Lato;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+
+        &-view {
+            color: $color-gray;
+            font-family: Lato;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+}

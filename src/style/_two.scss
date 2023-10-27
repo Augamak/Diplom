@@ -22,7 +22,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: 20px;
-         }
+        }
     }
 }
 
@@ -32,23 +32,23 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 20px var(--spacing-5, 20px);
+    gap: 20px;
     align-self: stretch;
     flex-wrap: wrap;
-    gap: 30px;
+    padding-bottom: 68px;
 
-   
+    :hover {
+        cursor: pointer;
+        box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+        background-color: white;
+        border-radius: 8px;
+        }
 
         &-bag {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-
-            :hover {
-                box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
-                background-color: white;
-            
 
             &-deal {
                 color: $light-gray-s;
@@ -61,8 +61,7 @@
                 font-style: normal;
                 font-weight: 800;
                 line-height: 20px; 
-                
-            
+                padding-top: 16px;
 
                 &-date {
                     display: flex;
@@ -85,21 +84,80 @@
                         font-style: normal;
                         font-weight: 400;
                         line-height: 20px;
-                        
+                    
 
                         &-clock {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
                             color: $light-gray-s;
                             font-family: Lato;
                             font-size: 12px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: 20px;
-                        }
-                            
-                            
+                        
+                        
                     }
-                
                 }
+            }
+        }
+    }
+}
+
+.card-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20%;
+
+    &-tonny {
+        color: $color-gray;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 20px;
+
+        &-shoulder {
+            color: $dark-gray;
+            font-family: Lato;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+
+            &-stars {
+                display:flex;
+                gap: 10px;
+                color: $dark-gray;
+                display: flex;
+            }
+        }
+    }
+}
+
+.card-price {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 16px;
+
+    &-new {
+        color: $orange-s;
+
+        &-old {
+            color: $dark-gray;
+
+            &-sale{
+                color: $color-white;
+                font-family: Inter;
+                font-size: 8px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border-radius:2px;
+                background-color: $orange-s;
+                padding: 3px 6px;
             }
         }
     }

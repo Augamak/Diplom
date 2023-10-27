@@ -21,7 +21,7 @@ body {
 
 .header-white {
   height: 96px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   width: 1260px;
   display: flex;
   justify-content: space-between;
@@ -101,18 +101,18 @@ body {
   gap: 30px;
 }
 .navigation-items-item {
-  color: rgba(85, 85, 85, 0.3333333333);
+  color: #555555;
   display: flex;
   font-family: Lato;
   font-size: 14px;
   line-height: 20px;
 }
 .navigation-items-link {
-  color: rgba(85, 85, 85, 0.3333333333);
+  color: #555555;
 }
 .navigation-items:hover {
   cursor: pointer;
-  color: rgba(85, 85, 85, 0.3333333333);
+  color: #555555;
 }
 
 .header-icons {
@@ -142,22 +142,22 @@ body {
   margin-right: 80px;
 }
 .header-gray-categories-text {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
 }
 .header-gray-categories-text-choose {
-  color: #FFF;
+  color: #FFFFFF;
 }
 .header-gray-categories-text-choose-currency {
-  color: #FFF;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
 }
 .header-gray-categories-text-choose-currency-language {
-  color: #FFF;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
 }
@@ -174,7 +174,7 @@ body {
   align-items: center;
 }
 .header-gray-mens-cosmetic-text-weekly {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
@@ -191,7 +191,7 @@ body {
 }
 
 .header-gray-icons {
-  color: #FFF;
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,13 +207,13 @@ body {
   gap: 5px;
 }
 .header-gray-icons-icon-img {
-  color: #FFF;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 .header-gray-icons-icon-img-number {
-  color: #FFF;
+  color: #FFFFFF;
   border-radius: 100px;
   background-color: #3DC47E;
   padding: 2px var(--spacing-2, 8px);
@@ -221,7 +221,7 @@ body {
 }
 
 .menu {
-  color: rgba(85, 85, 85, 0.3333333333);
+  color: #555555;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -235,7 +235,7 @@ body {
   line-height: 20px;
 }
 .menu-names-name {
-  color: rgba(85, 85, 85, 0.3333333333);
+  color: #555555;
 }
 .menu-names-name:hover {
   cursor: pointer;
@@ -290,7 +290,7 @@ body {
 }
 .one-top-summer-sale-date {
   background-color: #262626;
-  color: #FFF;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,7 +309,7 @@ body {
   gap: 30px;
 }
 .one-right-kimonos {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 32px;
   font-style: normal;
@@ -318,7 +318,7 @@ body {
   text-transform: uppercase;
 }
 .one-right-kimonos-glam {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 28px;
   font-style: normal;
@@ -337,7 +337,7 @@ body {
   gap: var(--spacing-2, 8px);
 }
 .one-right-kimonos-glam-click-shop {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
@@ -382,10 +382,16 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 20px var(--spacing-5, 20px);
+  gap: 20px;
   align-self: stretch;
   flex-wrap: wrap;
-  gap: 30px;
+  padding-bottom: 68px;
+}
+.two-cards :hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 8px;
 }
 .two-cards-bag {
   display: flex;
@@ -393,11 +399,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.two-cards-bag :hover {
-  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
-  background-color: white;
-}
-.two-cards-bag :hover-deal {
+.two-cards-bag-deal {
   color: #9D9D9D;
   display: flex;
   flex-direction: column;
@@ -408,8 +410,9 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 20px;
+  padding-top: 16px;
 }
-.two-cards-bag :hover-deal-date {
+.two-cards-bag-deal-date {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -419,7 +422,7 @@ body {
   font-weight: 800;
   line-height: 30px;
 }
-.two-cards-bag :hover-deal-date-hour {
+.two-cards-bag-deal-date-hour {
   color: #262626;
   display: flex;
   flex-direction: column;
@@ -431,8 +434,222 @@ body {
   font-weight: 400;
   line-height: 20px;
 }
-.two-cards-bag :hover-deal-date-hour-clock {
+.two-cards-bag-deal-date-hour-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #9D9D9D;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 20%;
+}
+.card-name-tonny {
+  color: #262626;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+.card-name-tonny-shoulder {
+  color: #555555;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card-name-tonny-shoulder-stars {
+  display: flex;
+  gap: 10px;
+  color: #555555;
+  display: flex;
+}
+
+.card-price {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 16px;
+}
+.card-price-new {
+  color: #FF2E00;
+}
+.card-price-new-old {
+  color: #555555;
+}
+.card-price-new-old-sale {
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 2px;
+  background-color: #FF2E00;
+  padding: 3px 6px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+}
+
+.three-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 90px;
+}
+.three-top-flash {
+  color: #000;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.three-top-flash-view {
+  color: #262626;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 8px;
+}
+.cards-card {
+  width: 407px;
+  height: 437px;
+  display: flex;
+  border-radius: 5px;
+}
+.cards-card-new {
+  height: 105%;
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  border-radius: 8px;
+}
+.cards-card-new-womans {
+  width: 100%;
+}
+.cards-card-new-green {
+  border: none;
+  background-color: #00A95D;
+  border-radius: 4px;
+  position: absolute;
+  margin: 10px;
+}
+.cards-card-new-green :hover {
+  cursor: pointer;
+}
+.cards-card-new-green-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 3px 6px;
+  gap: 4px;
+}
+.cards-card-new-green-text-img {
+  line-height: 0;
+  gap: 4px;
+}
+
+.cards-card-new-womans {
+  display: inline-block;
+}
+
+.card-text {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-text-name {
+  font-family: Lato;
+}
+.card-text-name-cool {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-bottom: 10%;
+}
+.card-text-name-cool-dotted {
+  color: #C4C4C4;
+  padding-bottom: 10%;
+}
+
+.price {
+  display: flex;
+  background-color: #262626;
+  border-radius: 8px;
+  border-color: #FFFFFF;
+  padding: 12px 24px;
+  gap: 8px;
+}
+.price :hover {
+  cursor: pointer;
+}
+.price-numbers {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.price-numbers-words {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.four {
+  display: flex;
+  flex-direction: column;
+}
+
+.four-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 83px 90px 48px 90px;
+}
+.four-top-flash {
+  color: #000;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.four-top-flash-view {
+  color: #262626;
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
