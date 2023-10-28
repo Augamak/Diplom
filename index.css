@@ -19,6 +19,31 @@ body {
   justify-content: center;
 }
 
+.menu {
+  width: 1260px;
+  height: 20px;
+}
+
+.one {
+  width: 1260px;
+}
+
+.two {
+  width: 1260px;
+}
+
+.three {
+  width: 1260px;
+}
+
+.four {
+  width: 1260px;
+}
+
+.five {
+  width: 1260px;
+}
+
 .header-white {
   height: 96px;
   background-color: #FFFFFF;
@@ -390,7 +415,7 @@ body {
 .two-cards :hover {
   cursor: pointer;
   box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 8px;
 }
 .two-cards-bag {
@@ -472,7 +497,6 @@ body {
   display: flex;
   gap: 10px;
   color: #555555;
-  display: flex;
 }
 
 .card-price {
@@ -482,6 +506,11 @@ body {
 }
 .card-price-new {
   color: #FF2E00;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
 }
 .card-price-new-old {
   color: #555555;
@@ -501,6 +530,7 @@ body {
 .three {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .three-top {
@@ -530,22 +560,22 @@ body {
   justify-content: center;
   gap: 20px;
   border-radius: 8px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .cards-card {
-  width: 407px;
+  width: 346px;
   height: 437px;
   display: flex;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .cards-card-new {
-  height: 105%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #262626;
   border-radius: 8px;
-}
-.cards-card-new-womans {
-  width: 100%;
 }
 .cards-card-new-green {
   border: none;
@@ -575,8 +605,10 @@ body {
   gap: 4px;
 }
 
-.cards-card-new-womans {
+.card-womans {
   display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .card-text {
@@ -584,7 +616,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 .card-text-name {
   font-family: Lato;
@@ -604,11 +636,11 @@ body {
 
 .price {
   display: flex;
+  align-items: center;
   background-color: #262626;
   border-radius: 8px;
   border-color: #FFFFFF;
-  padding: 12px 24px;
-  gap: 8px;
+  padding: 6px 6px;
 }
 .price :hover {
   cursor: pointer;
@@ -655,4 +687,204 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.four-cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.four-card {
+  width: 300px;
+  height: 480px;
+}
+.four-card :hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #FFFFFF;
+}
+
+.card-name {
+  padding: 10%;
+  gap: 20px;
+}
+.card-name-text {
+  display: flex;
+  justify-content: space-between;
+}
+.card-name-text-words {
+  display: flex;
+  flex-direction: column;
+}
+.card-name-text-words-mango {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding-bottom: 12px;
+}
+.card-name-text-words-mango-kimono {
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card-name-text-words-mango-kimono-img {
+  display: flex;
+  align-items: center;
+}
+
+.four-card-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #555555;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card-prices {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 16px;
+}
+.card-prices-new {
+  color: #FF2E00;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+.card-prices-new-old {
+  color: #9D9D9D;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card-prices-new-old-sale {
+  color: #FF2E00;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.five {
+  width: 1260px;
+  height: 393px;
+  display: flex;
+  margin-top: 84px;
+}
+.five-cards {
+  width: 100%;
+  height: 97.5%;
+  display: flex;
+  gap: 30px;
+}
+.five-cards-card {
+  width: 100%;
+  height: 100%;
+  background-color: #BF2E3B;
+  display: flex;
+  justify-content: space-between;
+}
+.five-cards-card-text {
+  width: 50%;
+  height: 100%;
+  color: #FFFFFF;
+  font-family: Lato;
+  padding: 68px 20px;
+}
+.five-cards-card-text-left {
+  gap: 30px;
+}
+.five-cards-card-text-left-never {
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 46px;
+}
+.five-cards-card-text-left-never-shirts {
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 15%;
+}
+.five-cards-card-text-left-never-shirts-all {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration-line: underline;
+}
+.five-cards-card-text-left-never-shirts-all-img {
+  width: 50%;
+  height: 100%;
+}
+
+.five-cards-card-two {
+  background-color: #1D5159;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.five-cards-card-two-text {
+  width: 50%;
+  height: 100%;
+  color: #FFFFFF;
+  font-family: Lato;
+  padding: 68px 20px;
+}
+.five-cards-card-two-text-left {
+  gap: 30px;
+}
+.five-cards-card-two-text-left-never {
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 46px;
+}
+.five-cards-card-two-text-left-never-shirts {
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 15%;
+}
+.five-cards-card-two-text-left-never-shirts-all {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration-line: underline;
+}
+.five-cards-card-two-text-left-never-shirts-all-img {
+  width: 50%;
+  height: 100%;
+}
+
+.six {
+  background-color: #F7DDD0;
 }/*# sourceMappingURL=index.css.map */

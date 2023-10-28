@@ -40,7 +40,7 @@
     :hover {
         cursor: pointer;
         box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
-        background-color: white;
+        background-color: $color-white;
         border-radius: 8px;
         }
 
@@ -131,7 +131,6 @@
                 display:flex;
                 gap: 10px;
                 color: $dark-gray;
-                display: flex;
             }
         }
     }
@@ -144,6 +143,11 @@
 
     &-new {
         color: $orange-s;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 20px;
 
         &-old {
             color: $dark-gray;
