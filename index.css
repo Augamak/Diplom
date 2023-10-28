@@ -571,7 +571,7 @@ body {
 }
 .cards-card-new {
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   background-color: #262626;
@@ -609,6 +609,8 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .card-text {
@@ -641,6 +643,7 @@ body {
   border-radius: 8px;
   border-color: #FFFFFF;
   padding: 6px 6px;
+  gap: 6px;
 }
 .price :hover {
   cursor: pointer;
@@ -665,12 +668,14 @@ body {
 .four {
   display: flex;
   flex-direction: column;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .four-top {
   display: flex;
   justify-content: space-between;
-  padding: 83px 90px 48px 90px;
+  padding: 0px 90px 68px 90px;
 }
 .four-top-flash {
   color: #000;
@@ -698,8 +703,10 @@ body {
 }
 
 .four-card {
-  width: 300px;
-  height: 480px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 .four-card :hover {
   cursor: pointer;
@@ -786,6 +793,8 @@ body {
   height: 393px;
   display: flex;
   margin-top: 84px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .five-cards {
   width: 100%;
@@ -886,5 +895,157 @@ body {
 }
 
 .six {
+  display: flex;
   background-color: #F7DDD0;
+  margin-right: 70px;
+}
+.six-center {
+  display: flex;
+  align-items: center;
+}
+.six-center-text {
+  display: flex;
+  padding: 0px 90px;
+  flex-direction: column;
+  gap: 17px;
+}
+.six-center-text-mag {
+  color: #465D6B;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-left: 70px;
+}
+.six-center-text-mag-snap {
+  color: #555555;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.six-arrow-left {
+  justify-content: center;
+  align-items: center;
+  padding: 90px 90px 90px 70px;
+}
+
+.six-arrow-right {
+  transform: scale(-1);
+  align-items: center;
+  position: absolute;
+  padding: 90px 70px 90px 90px;
+}
+
+.seven {
+  width: 1440px;
+  height: 393px;
+  display: flex;
+  margin-top: 84px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.seven-cards {
+  width: 100%;
+  height: 97.5%;
+  display: flex;
+  gap: 30px;
+}
+.seven-cards-card {
+  width: 100%;
+  height: 100%;
+  background-color: #BF2E3B;
+  display: flex;
+  justify-content: space-between;
+}
+.seven-cards-card-text {
+  width: 50%;
+  height: 100%;
+  color: #FFFFFF;
+  font-family: Lato;
+  padding: 68px 20px;
+}
+.seven-cards-card-text-left {
+  gap: 30px;
+}
+.seven-cards-card-text-left-never {
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 46px;
+}
+.seven-cards-card-text-left-never-shirts {
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 15%;
+}
+.seven-cards-card-text-left-never-shirts-all {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration-line: underline;
+}
+.seven-cards-card-text-left-never-shirts-all-img {
+  width: 50%;
+  height: 100%;
+}
+
+.five-cards-card-two {
+  background-color: #1D5159;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.five-cards-card-two-text {
+  width: 50%;
+  height: 100%;
+  color: #FFFFFF;
+  font-family: Lato;
+  padding: 68px 20px;
+}
+.five-cards-card-two-text-left {
+  gap: 30px;
+}
+.five-cards-card-two-text-left-never {
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 46px;
+}
+.five-cards-card-two-text-left-never-shirts {
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 15%;
+}
+.five-cards-card-two-text-left-never-shirts-all {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-decoration-line: underline;
+}
+.five-cards-card-two-text-left-never-shirts-all-img {
+  width: 50%;
+  height: 100%;
 }/*# sourceMappingURL=index.css.map */

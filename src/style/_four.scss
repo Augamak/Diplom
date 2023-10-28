@@ -1,11 +1,13 @@
 .four {
     display: flex;
     flex-direction: column;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 .four-top {
    display: flex;
    justify-content: space-between;
-   padding: 83px 90px 48px 90px;
+   padding: 0px 90px 68px 90px;
 
     &-flash {
         color: $color-black;
@@ -35,8 +37,10 @@
 }
 
 .four-card {
-    width: 300px;
-    height: 480px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
    
     :hover {
         cursor: pointer;

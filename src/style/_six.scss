@@ -1,5 +1,53 @@
 .six {
-
+    display: flex;
     background-color: $light-brown;
+    margin-right: 70px;
 
+    &-center {
+        display: flex;
+        align-items: center;
+
+        &-text {
+            display: flex;
+            padding: 0px 90px;
+            flex-direction: column;
+            gap: 17px;
+
+            &-mag {
+                color: $medium-gray;
+                font-family: Lato;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+                padding-left: 70px;
+                
+
+                &-snap {
+                    color: $dark-gray;
+                    font-family: Lato;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 28px;
+                    padding-left: 70px;
+                    padding-right: 70px;
+                }
+            }    
+        }
+    }
 }
+.six-arrow-left {
+    justify-content: center;
+    align-items: center;
+    padding: 90px 90px 90px 70px;
+}
+.six-arrow-right {
+    transform: scale(-1);
+    align-items: center;
+    position: absolute;
+    padding: 90px 70px 90px 90px;
+}
+        
