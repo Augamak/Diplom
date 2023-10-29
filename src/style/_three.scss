@@ -125,7 +125,8 @@
     align-items: center;
     background-color: $color-gray;
     border-radius: 8px;
-    border-color: $color-white;
+    outline: none;
+    border: 1px solid $color-white;
     padding: 6px 6px;
     gap: 6px;
 

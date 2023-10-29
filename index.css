@@ -290,6 +290,7 @@ body {
   padding-top: 20px;
   top: 150px;
   right: 630px;
+  z-index: 1;
 }
 .one-top-summer {
   color: #262626;
@@ -326,14 +327,28 @@ body {
 .one-right {
   width: 60%;
   height: 460px;
-  background-color: #4172DC;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  position: relative;
 }
-.one-right-kimonos {
+.one-right-sky {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.one-right-sky-jpg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.one-right-text {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 17% 17%;
+  gap: 20px;
+}
+.one-right-text-kimonos {
   color: #FFFFFF;
   font-family: Lato;
   font-size: 32px;
@@ -342,7 +357,7 @@ body {
   line-height: 50px;
   text-transform: uppercase;
 }
-.one-right-kimonos-glam {
+.one-right-text-kimonos-glam {
   color: #FFFFFF;
   font-family: Lato;
   font-size: 28px;
@@ -350,18 +365,18 @@ body {
   font-weight: 500;
   line-height: 50px;
 }
-.one-right-kimonos-glam-click {
+.one-right-text-kimonos-glam-click {
   background-color: #4172DC;
   border: none;
   display: flex;
-  width: 243px;
-  height: 56px;
+  width: 179px;
+  height: 24px;
   padding: 16px 32px;
   justify-content: center;
   align-items: center;
   gap: var(--spacing-2, 8px);
 }
-.one-right-kimonos-glam-click-shop {
+.one-right-text-kimonos-glam-click-shop {
   color: #FFFFFF;
   font-family: Lato;
   font-size: 14px;
@@ -370,7 +385,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
 }
-.one-right-kimonos-glam-click:hover {
+.one-right-text-kimonos-glam-click:hover {
   cursor: pointer;
 }
 
@@ -641,7 +656,8 @@ body {
   align-items: center;
   background-color: #262626;
   border-radius: 8px;
-  border-color: #FFFFFF;
+  outline: none;
+  border: 1px solid #FFFFFF;
   padding: 6px 6px;
   gap: 6px;
 }
@@ -789,10 +805,11 @@ body {
 }
 
 .five {
-  width: 1260px;
+  width: 1440px;
   height: 393px;
   display: flex;
   margin-top: 84px;
+  margin-bottom: 84px;
   padding-left: 90px;
   padding-right: 90px;
 }
@@ -817,7 +834,8 @@ body {
   padding: 68px 20px;
 }
 .five-cards-card-text-left {
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .five-cards-card-text-left-never {
   font-family: Lato;
@@ -825,6 +843,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 46px;
+  padding-bottom: 15%;
 }
 .five-cards-card-text-left-never-shirts {
   font-family: Lato;
@@ -863,7 +882,8 @@ body {
   padding: 68px 20px;
 }
 .five-cards-card-two-text-left {
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .five-cards-card-two-text-left-never {
   font-family: Lato;
@@ -871,6 +891,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 46px;
+  padding-bottom: 15%;
 }
 .five-cards-card-two-text-left-never-shirts {
   font-family: Lato;
@@ -891,6 +912,11 @@ body {
 }
 .five-cards-card-two-text-left-never-shirts-all-img {
   width: 50%;
+  height: 100%;
+}
+
+.five-img {
+  width: 100%;
   height: 100%;
 }
 
@@ -961,7 +987,7 @@ body {
 .seven-cards-card {
   width: 100%;
   height: 100%;
-  background-color: #BF2E3B;
+  background-color: #D11FB5;
   display: flex;
   justify-content: space-between;
 }
@@ -973,7 +999,8 @@ body {
   padding: 68px 20px;
 }
 .seven-cards-card-text-left {
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .seven-cards-card-text-left-never {
   font-family: Lato;
@@ -981,6 +1008,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 46px;
+  padding-bottom: 15%;
 }
 .seven-cards-card-text-left-never-shirts {
   font-family: Lato;
@@ -999,36 +1027,34 @@ body {
   line-height: 36px;
   text-decoration-line: underline;
 }
-.seven-cards-card-text-left-never-shirts-all-img {
-  width: 50%;
-  height: 100%;
-}
 
-.five-cards-card-two {
-  background-color: #1D5159;
+.seven-cards-card-two {
+  background-color: #0186C4;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-.five-cards-card-two-text {
+.seven-cards-card-two-text {
   width: 50%;
   height: 100%;
   color: #FFFFFF;
   font-family: Lato;
   padding: 68px 20px;
 }
-.five-cards-card-two-text-left {
-  gap: 30px;
+.seven-cards-card-two-text-left {
+  display: flex;
+  flex-direction: column;
 }
-.five-cards-card-two-text-left-never {
+.seven-cards-card-two-text-left-never {
   font-family: Lato;
   font-size: 36px;
   font-style: normal;
   font-weight: 800;
   line-height: 46px;
+  padding-bottom: 15%;
 }
-.five-cards-card-two-text-left-never-shirts {
+.seven-cards-card-two-text-left-never-shirts {
   font-family: Lato;
   font-size: 28px;
   font-style: normal;
@@ -1036,7 +1062,7 @@ body {
   line-height: 36px;
   padding-bottom: 15%;
 }
-.five-cards-card-two-text-left-never-shirts-all {
+.seven-cards-card-two-text-left-never-shirts-all {
   color: #FFFFFF;
   font-family: Lato;
   font-size: 20px;
@@ -1045,7 +1071,8 @@ body {
   line-height: 36px;
   text-decoration-line: underline;
 }
-.five-cards-card-two-text-left-never-shirts-all-img {
-  width: 50%;
+
+.seven-img {
+  width: 100%;
   height: 100%;
 }/*# sourceMappingURL=index.css.map */

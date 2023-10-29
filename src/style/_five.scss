@@ -1,8 +1,9 @@
 .five {
-    width: 1260px;
+    width: 1440px;
     height: 393px;
     display: flex;
     margin-top: 84px;
+    margin-bottom: 84px;
     padding-left: 90px;
     padding-right: 90px;
     
@@ -30,7 +31,8 @@
                 padding: 68px 20px;
 
                 &-left {
-                    gap: 30px;
+                    display: flex;
+                    flex-direction: column;
 
                     &-never {
                         font-family: Lato;
@@ -38,6 +40,7 @@
                         font-style: normal;
                         font-weight: 800;
                         line-height: 46px;
+                        padding-bottom: 15%;
 
                         &-shirts {
                             font-family: Lato;
@@ -83,7 +86,8 @@
         padding: 68px 20px;
 
         &-left {
-            gap: 30px;
+            display: flex;
+            flex-direction: column;
 
             &-never {
                 font-family: Lato;
@@ -91,6 +95,7 @@
                 font-style: normal;
                 font-weight: 800;
                 line-height: 46px;
+                padding-bottom: 15%;
 
                 &-shirts {
                     font-family: Lato;
@@ -119,4 +124,8 @@
         }
     }
 }
-       
+
+.five-img {
+    width: 100%;
+    height: 100%;
+}

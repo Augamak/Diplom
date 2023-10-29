@@ -21,57 +21,70 @@
     padding-top: 20px;
     top: 150px;
     right: 630px;
+    z-index: 1;
 
 
-        &-summer {
-            color: $color-gray;
+    &-summer {
+        color: $color-gray;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    
+        &-sale {
+            display: flex;
+            justify-content: center;
+            color: $orange-s;
             font-family: Lato;
             font-size: 20px;
             font-style: normal;
             font-weight: 700;
             line-height: 20px;
-            display: flex;
-            justify-content: center;
-            padding-bottom: 10px;
-        
-            &-sale {
-                display: flex;
-                justify-content: center;
-                color: $orange-s;
-                font-family: Lato;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 20px;
-                padding-bottom: 46px;
+            padding-bottom: 46px;
 
-                &-date {
-                    background-color: $color-gray;
-                    color: $color-white;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    flex: 1 0 0;
-                
-                
+            &-date {
+                background-color: $color-gray;
+                color: $color-white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex: 1 0 0;
             }
         }
-
-    }
-    
+    }  
 }
 
 .one-right {
     width: 60%;
     height: 460px;
-    background-color: $blue-s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    position: relative;
     
+    &-sky {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        &-jpg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+    }
+}
+
+.one-right-text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 17% 17%;
+    gap: 20px;
+
     &-kimonos {
         color: $color-white;
         font-family: Lato;
@@ -93,13 +106,12 @@
                 background-color: $blue-s;
                 border: none;
                 display: flex;
-                width: 243px;
-                height: 56px;
+                width: 179px;
+                height: 24px;
                 padding: 16px 32px;
                 justify-content: center;
                 align-items: center;
                 gap: var(--spacing-2, 8px);
-                
 
                 &-shop {
                     color: $color-white;
@@ -119,4 +131,6 @@
         }
     }
 }
+   
+
 
