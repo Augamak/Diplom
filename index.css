@@ -26,6 +26,12 @@ body {
   width: 1440px;
 }
 
+.luminae {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-white {
   width: 100%;
   height: 96px;
@@ -1071,4 +1077,122 @@ body {
 .seven-img {
   width: 100%;
   height: 100%;
+}
+
+.footer-luminae {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 155px;
+}
+
+.luminae {
+  width: 571px;
+  height: 187px;
+  background-color: #7296AB;
+  display: flex;
+  padding: var(--spacing-8, 32px) var(--spacing-13, 56px);
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  position: absolute;
+}
+.luminae-text {
+  display: flex;
+  gap: 20px;
+}
+.luminae-text-first {
+  color: var(--text-color-dark-text-primary, #FFFFFF);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.luminae-text-first-second {
+  color: var(--background-color-footer, #D1E2EB);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.luminae-text-first-second-register {
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.luminae-imput {
+  background-color: #FFFFFF;
+  width: 268px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.luminae-imput-email {
+  display: flex;
+  align-items: center;
+}
+.luminae-imput-email-text {
+  width: 230px;
+  height: 36px;
+  border: none;
+}
+
+.footer-top {
+  width: 100%;
+  height: 362px;
+  background-color: #D1E2EB;
+  display: flex;
+  justify-content: space-between;
+  padding: 132px 248px 60px 303px;
+}
+.footer-top-text {
+  display: flex;
+  flex-direction: column;
+}
+.footer-top-text-name {
+  color: #262626;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding-bottom: 25px;
+}
+.footer-top-text-name-words {
+  color: #555555;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 15px;
+}
+
+.footer-botton {
+  width: 100%;
+  padding: 24px 100px;
+}
+.footer-botton-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 17px;
+}
+.footer-botton-top-icons {
+  display: flex;
+  gap: 25px;
+}
+.footer-botton-top-icons-right {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
