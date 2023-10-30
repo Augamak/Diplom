@@ -1,7 +1,6 @@
 .six {
     display: flex;
     background-color: $light-brown;
-    margin-right: 70px;
 
     &-center {
         display: flex;
@@ -43,11 +42,19 @@
     justify-content: center;
     align-items: center;
     padding: 90px 90px 90px 70px;
+
+    :hover {
+        cursor: pointer;
+    }
 }
 .six-arrow-right {
     transform: scale(-1);
     align-items: center;
     position: absolute;
     padding: 90px 70px 90px 90px;
+
+    :hover {
+        cursor: pointer;
+    }
 }
         

@@ -1,7 +1,9 @@
 .one {
+    width: 100%;
     display: flex;
     align-items: center;
     position: relative;
+    padding-top: 16px;
 }
 
 .one-left {
@@ -19,8 +21,8 @@
     align-self: stretch;
     background-color: white;
     padding-top: 20px;
-    top: 150px;
-    right: 630px;
+    top: 32%;
+    right: 54%;
     z-index: 1;
 
 
@@ -60,7 +62,7 @@
 }
 
 .one-right {
-    width: 60%;
+    width: 66%;
     height: 460px;
     position: relative;
     
@@ -82,7 +84,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 17% 17%;
+    padding: 13% 22%;
     gap: 20px;
 
     &-kimonos {

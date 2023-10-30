@@ -14,40 +14,22 @@ li {
 }
 
 body {
-  width: 1440px;
   display: flex;
   justify-content: center;
 }
 
-.menu {
-  width: 1260px;
-  height: 20px;
+.container {
+  width: 1440px;
 }
 
-.one {
-  width: 1260px;
-}
-
-.two {
-  width: 1260px;
-}
-
-.three {
-  width: 1260px;
-}
-
-.four {
-  width: 1260px;
-}
-
-.five {
-  width: 1260px;
+.header {
+  width: 1440px;
 }
 
 .header-white {
+  width: 100%;
   height: 96px;
   background-color: #FFFFFF;
-  width: 1260px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,8 +131,8 @@ body {
 }
 
 .header-gray {
+  width: 100%;
   background-color: #262626;
-  width: 1260px;
   height: 62px;
   display: flex;
   justify-content: space-between;
@@ -246,6 +228,7 @@ body {
 }
 
 .menu {
+  width: 100%;
   color: #555555;
   display: flex;
   justify-content: space-between;
@@ -268,9 +251,11 @@ body {
 }
 
 .one {
+  width: 100%;
   display: flex;
   align-items: center;
   position: relative;
+  padding-top: 16px;
 }
 
 .one-left {
@@ -288,8 +273,8 @@ body {
   align-self: stretch;
   background-color: white;
   padding-top: 20px;
-  top: 150px;
-  right: 630px;
+  top: 32%;
+  right: 54%;
   z-index: 1;
 }
 .one-top-summer {
@@ -325,7 +310,7 @@ body {
 }
 
 .one-right {
-  width: 60%;
+  width: 66%;
   height: 460px;
   position: relative;
 }
@@ -345,7 +330,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 17% 17%;
+  padding: 13% 22%;
   gap: 20px;
 }
 .one-right-text-kimonos {
@@ -427,17 +412,19 @@ body {
   flex-wrap: wrap;
   padding-bottom: 68px;
 }
-.two-cards :hover {
-  cursor: pointer;
-  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
-  background-color: #FFFFFF;
-  border-radius: 8px;
-}
 .two-cards-bag {
+  width: 300px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.two-cards-bag :hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #FFFFFF;
+  border-radius: 8px;
 }
 .two-cards-bag-deal {
   color: #9D9D9D;
@@ -546,6 +533,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  padding-bottom: 68px;
 }
 
 .three-top {
@@ -579,14 +567,14 @@ body {
   padding-right: 90px;
 }
 .cards-card {
-  width: 346px;
+  width: 407px;
   height: 437px;
   display: flex;
   border-radius: 8px;
 }
 .cards-card-new {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #262626;
@@ -691,7 +679,7 @@ body {
 .four-top {
   display: flex;
   justify-content: space-between;
-  padding: 0px 90px 68px 90px;
+  padding-bottom: 68px;
 }
 .four-top-flash {
   color: #000;
@@ -804,8 +792,12 @@ body {
   line-height: 20px;
 }
 
+.four-cards-img {
+  width: 100%;
+  height: 100%;
+}
+
 .five {
-  width: 1440px;
   height: 393px;
   display: flex;
   margin-top: 84px;
@@ -815,9 +807,9 @@ body {
 }
 .five-cards {
   width: 100%;
-  height: 97.5%;
+  height: 100%;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .five-cards-card {
   width: 100%;
@@ -843,7 +835,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 46px;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
 }
 .five-cards-card-text-left-never-shirts {
   font-family: Lato;
@@ -851,7 +843,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
 }
 .five-cards-card-text-left-never-shirts-all {
   color: #FFFFFF;
@@ -879,7 +871,7 @@ body {
   height: 100%;
   color: #FFFFFF;
   font-family: Lato;
-  padding: 68px 20px;
+  padding: 68px 24px;
 }
 .five-cards-card-two-text-left {
   display: flex;
@@ -891,7 +883,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: 46px;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
 }
 .five-cards-card-two-text-left-never-shirts {
   font-family: Lato;
@@ -899,7 +891,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
 }
 .five-cards-card-two-text-left-never-shirts-all {
   color: #FFFFFF;
@@ -916,14 +908,13 @@ body {
 }
 
 .five-img {
-  width: 100%;
+  width: 101%;
   height: 100%;
 }
 
 .six {
   display: flex;
   background-color: #F7DDD0;
-  margin-right: 70px;
 }
 .six-center {
   display: flex;
@@ -962,6 +953,9 @@ body {
   align-items: center;
   padding: 90px 90px 90px 70px;
 }
+.six-arrow-left :hover {
+  cursor: pointer;
+}
 
 .six-arrow-right {
   transform: scale(-1);
@@ -969,9 +963,11 @@ body {
   position: absolute;
   padding: 90px 70px 90px 90px;
 }
+.six-arrow-right :hover {
+  cursor: pointer;
+}
 
 .seven {
-  width: 1440px;
   height: 393px;
   display: flex;
   margin-top: 84px;
@@ -982,7 +978,7 @@ body {
   width: 100%;
   height: 97.5%;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .seven-cards-card {
   width: 100%;
