@@ -36,7 +36,8 @@
         display: flex;
         justify-content: center;
         padding-bottom: 10px;
-    
+        padding-top: 20px;
+
         &-sale {
             display: flex;
             justify-content: center;
@@ -46,7 +47,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: 20px;
-            padding-bottom: 46px;
+            padding-bottom: 20px;
 
             &-date {
                 background-color: $color-gray;
@@ -133,6 +134,13 @@
         }
     }
 }
-   
+
+
+@media screen and (max-width: 991px){
+    .one{
+        width: 100%;
+    }
+}
+    
 
 

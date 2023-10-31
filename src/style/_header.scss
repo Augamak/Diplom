@@ -6,28 +6,34 @@
     justify-content: space-between;
     align-items: center;
     padding: 28px 90px;
-    gap: 80px;
 
-    &-logo {
+    &-container {
         display: flex;
-        align-items: center;
-        width: 49px;
-        height: 33px;
-        gap: 6px;
-    
+        gap: 110px;
+        justify-content: space-between;
     
 
-        &-luminae {
+        &-logo {
             display: flex;
-            padding: var(--spacing-0, 0px);
-            justify-content: flex-end;
             align-items: center;
-            color: $color-black;
-            font-family: Lato;
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 20px;
+            width: 49px;
+            height: 33px;
+            gap: 6px;
+        
+        
+
+            &-luminae {
+                display: flex;
+                padding: var(--spacing-0, 0px);
+                justify-content: flex-end;
+                align-items: center;
+                color: $color-black;
+                font-family: Lato;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+            }
         }
    }
 }
@@ -39,20 +45,21 @@
     align-items: center;
     padding-left: 80px;
 
-        &-producs {
-            display: flex;
-            padding: var(--spacing-0, 0px);
-            justify-content: flex-end;
-            align-items: center;
-            width: 321px;
-            height: 24px;
-            border: solid 1px $light-white-s;
-            border-radius: 4px;
-            padding: 15px 15px;
-    
+    &-producs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 330px;
+        border: solid 1px $light-white-s;
+        border-radius: 4px;
+        padding: 5px 10px;
+
             &-text {
-            color: $light-gray-s;
-            border: none;
+                color: $light-gray-s;
+                height: 30px;
+                width: 170px;
+                border: none;
+                outline: none;
             
 
                 &-categories{
@@ -86,34 +93,38 @@
     }
 }
 
-.navigation {
+.header-navigation {
     display: flex;
+    justify-content: space-between;
+    gap: 100px;
 
-    &-items {
+    &-right {
         display: flex;
         justify-content: space-between;
-        gap: 30px;
-    
 
-        &-item {
-            color: $dark-gray;
+        &-items {
             display: flex;
-            font-family: Lato;
-            font-size: 14px;
-            line-height: 20px;
-        }
+            justify-content: space-between;
+            gap: 55px;
 
-            &-link {
+            &-item {
                 color: $dark-gray;
-            }
-
+                display: flex;
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 20px;
             
-            &:hover {
-                cursor: pointer;
-                color: $dark-gray;
-            }
-        
-        
+
+                &-link {
+                    color: $dark-gray;
+                
+                    &:hover {
+                        cursor: pointer;
+                        color: $dark-gray;
+                    }
+                }
+            } 
+        }
     }
 }
 
@@ -233,5 +244,41 @@
                 margin-left: 10px;
             }
         }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+        &-white {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            &-container {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .header-navigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-gray-mens {
+        display: none;
+    }
+    
+    .vl2 {
+        display: none;
     }
 }

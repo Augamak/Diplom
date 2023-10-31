@@ -25,3 +25,15 @@
     }
 }
 
+@media screen and (max-width: 991px){
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+    }
+}
+    
+
+
