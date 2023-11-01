@@ -20,9 +20,7 @@ body {
 }
 .container {
     width: 1440px;
-}
-.header {
-    width: 1440px;
+
 }
 .luminae {
     display: flex;
@@ -31,4 +29,9 @@ body {
 }
 
 
-
+@media screen and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    
+}

@@ -139,6 +139,31 @@
 @media screen and (max-width: 991px){
     .one{
         width: 100%;
+        padding: 0;
+    }
+
+    .one-left {
+        width: 50%;
+        height: 460px;
+    }
+
+    .one-top {
+        display: none;
+    }
+
+    .picture {
+        width: 100%;
+        height: 460px;
+    }
+
+    .one-right {
+        width: 50%;
+        height: 460px;
+
+        &-text {
+            padding: 13% 14%;
+            gap: 32px;
+        }
     }
 }
     

@@ -30,7 +30,7 @@
 
 .four-cards {
     width: 100%;
-    height: 100%;
+    height: 480px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -39,8 +39,8 @@
 .four-card {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 480px;
    
     :hover {
         cursor: pointer;
@@ -51,12 +51,13 @@
 }
 
 .card-name {
-    padding: 10%;
-    gap: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
 
     &-text {
         display: flex;
         justify-content: space-between;
+
         &-words {
         display: flex;
         flex-direction: column;
@@ -134,4 +135,30 @@
 .four-cards-img {
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .four {
+        width: 100%;
+
+        &-card {
+            width: 396px;
+            height: 480px;
+        }
+    }
+
+    .four-cards {
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        &-img {
+            width: 395px;
+            height: 327px;
+        }
+    }
+
+    .card-name {
+        padding-left: 5%;
+    }
 }
