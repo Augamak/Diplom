@@ -315,6 +315,8 @@ object {
 @media screen and (max-width: 478px) {
     .header {
         width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
         display: flex;
         justify-content: end;
         gap: var(--spacing-14, 0px) 0px;
@@ -361,6 +363,7 @@ object {
     .header-white {
         width: 100%;
         padding: 0;
+        padding-left: 30px;
     }
     .header-gray-categories {
         display: none;
@@ -388,8 +391,8 @@ object {
         display: flex;
         position: relative;
         padding: 0;
-        top: -10px;
-        left: 0px;
+        bottom: 10px;
+        right: 7px;
         gap: 0;
 
         &-icons {
@@ -402,7 +405,7 @@ object {
     }
 
     .header-gray-icons-icon-img-card3 {
-        width: 20px;
+        width: 24px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -416,5 +419,12 @@ object {
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
+    }
+
+    .header-input-producs-text-categories-arrow :hover {
+        cursor: pointer;
+    }
+    .header-input-producs-text-categories-arrow-vl1-search :hover {
+        cursor: pointer;
     }
 }

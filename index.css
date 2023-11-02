@@ -36,9 +36,9 @@ body {
 @media screen and (max-width: 478px) {
   .container {
     width: 100%;
-    padding: 32px 20px;
+    padding-top: 32px;
   }
-  .footer-top {
+  .footer {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -312,6 +312,8 @@ object {
 @media screen and (max-width: 478px) {
   .header {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: end;
     gap: var(--spacing-14, 0px) 0px;
@@ -352,6 +354,7 @@ object {
   .header-white {
     width: 100%;
     padding: 0;
+    padding-left: 30px;
   }
   .header-gray-categories {
     display: none;
@@ -377,8 +380,8 @@ object {
     display: flex;
     position: relative;
     padding: 0;
-    top: -10px;
-    left: 0px;
+    bottom: 10px;
+    right: 7px;
     gap: 0;
   }
   .header-gray-icons {
@@ -388,7 +391,7 @@ object {
     gap: 0;
   }
   .header-gray-icons-icon-img-card3 {
-    width: 20px;
+    width: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -400,6 +403,12 @@ object {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+  }
+  .header-input-producs-text-categories-arrow :hover {
+    cursor: pointer;
+  }
+  .header-input-producs-text-categories-arrow-vl1-search :hover {
+    cursor: pointer;
   }
 }
 .menu {
@@ -761,6 +770,8 @@ object {
 @media screen and (max-width: 478px) {
   .two {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .two-top {
     padding: 24px 20px;
@@ -936,6 +947,8 @@ object {
 @media screen and (max-width: 478px) {
   .three {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .cards {
     width: 100%;
@@ -1119,7 +1132,8 @@ object {
 @media screen and (max-width: 478px) {
   .four {
     width: 100%;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .four-top {
     padding: 24px 20px;
@@ -1260,7 +1274,8 @@ object {
 @media screen and (max-width: 478px) {
   .five {
     width: 438px;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0;
   }
   .five-cards-card-two {
@@ -1452,7 +1467,7 @@ object {
   .seven {
     width: 438px;
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 20px;
   }
   .seven-cards-card {
     display: none;
@@ -1632,12 +1647,18 @@ object {
 @media screen and (max-width: 478px) {
   .footer {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .footer-luminae {
     display: none;
   }
   .footer-top {
-    padding: 60px 16px;
+    width: 478px;
+    padding: 60px 40px;
+  }
+  .footer-top-all {
+    gap: var(--spacing-14, 60px) 60px;
   }
   .footer-botton-top-icons-right {
     display: none;

@@ -197,6 +197,8 @@
 @media screen and (max-width: 478px) {
     .footer {
         width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
 
         &-luminae {
             display: none;
@@ -204,7 +206,13 @@
     }
 
     .footer-top {
-        padding: 60px 16px
+        width: 478px;
+        padding: 60px 40px;
+
+        &-all {
+            gap: var(--spacing-14, 60px) 60px;
+        }
+
     }
     .footer-botton-top-icons-right {
         display: none;
