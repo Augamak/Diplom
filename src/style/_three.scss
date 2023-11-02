@@ -184,3 +184,42 @@
     }
 }
 
+@media screen and (max-width: 478px) {
+    .three {
+        width: 100%;
+    }
+    .cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0;
+
+        &-card {
+            width: 357px;
+
+            &-new {
+                width: 357px;
+            }
+
+        }
+    }
+
+    .card-womans {
+        width: 100%;
+    }
+        
+    .three-top {
+        padding: 24px 20px;
+            
+        
+        
+        &-flash {
+            font-family: Lato;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+        }
+    }
+}

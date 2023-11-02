@@ -136,3 +136,14 @@
         height: 467px;
     }
 }
+
+@media screen and (max-width: 478px) {
+    .five {
+        width: 438px;
+        padding: 0;
+        margin: 0;
+    }
+    .five-cards-card-two {
+        display: none;
+    }
+}

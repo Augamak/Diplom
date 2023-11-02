@@ -148,17 +148,47 @@
     }
 
     .four-cards {
-        height: 100%;
+        height: 40%;
         flex-wrap: wrap;
         gap: 15px;
 
         &-img {
-            width: 395px;
+            width: 100%;
             height: 327px;
         }
+    }
+
+    .four-card {
+        width: 49%;
     }
 
     .card-name {
         padding-left: 5%;
     }
 }
+
+@media screen and (max-width: 478px) {
+    .four {
+        width: 100%;
+        padding: 0;
+        
+        &-top {
+            padding: 24px 20px;
+        }
+    }
+
+    .four-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        &-img {
+            width: 260px;
+        }
+    }
+
+    .four-card {
+        width: 260px;
+    }
+}
+

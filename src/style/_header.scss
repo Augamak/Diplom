@@ -252,6 +252,13 @@
     }
 }
 
+
+
+
+object {
+    background-color: black;
+}
+
 @media screen and (max-width: 991px) {
     .header {
         width: 100%;
@@ -298,5 +305,116 @@
     
     .language-all {
         gap: 20px;
+    }
+}
+
+.header-gray-icons-icon-img-card3 {
+    width: 40px;
+}
+
+@media screen and (max-width: 478px) {
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        gap: var(--spacing-14, 0px) 0px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .header-white-container {
+        display: flex;
+        justify-content: flex-start;
+        gap: var(--spacing-14, 20px) 90px;
+        flex-wrap: wrap;
+    }
+
+    .span {
+        padding-left: 30px;
+    }
+
+    div span {
+        display: inline-block;
+        width: 21px;
+        border-bottom: 2px solid black;
+        position: relative;
+        
+    }
+
+    div span::before {
+        top: 7px;
+        position: absolute;
+        content: '';
+        display: inline-block;
+        width: 21px;
+        border-bottom: 2px solid black;
+    }
+
+    div span::after {
+        top: -7px;
+        position: absolute;
+        content: '';
+        display: inline-block;
+        width: 21px;
+        border-bottom: 2px solid black;
+    }
+    .header-white {
+        width: 100%;
+        padding: 0;
+    }
+    .header-gray-categories {
+        display: none;
+    }
+
+    .header-navigation {
+        display: none;
+    }
+    .language-all {
+        display: none;
+    }
+    .header-gray-mens {
+        display: none;
+    }
+    .header-gray-icons-icon-img-choose {
+        display: none;
+    }
+    .header-gray-icons-icon-img {
+        display: none;
+    }
+
+    .header-gray {
+        background-color: white;
+        margin: 0;
+        display: flex;
+        position: relative;
+        padding: 0;
+        top: -10px;
+        left: 0px;
+        gap: 0;
+
+        &-icons {
+            gap: 0;
+
+            &-icon {
+                gap: 0;
+            }
+        }
+    }
+
+    .header-gray-icons-icon-img-card3 {
+        width: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .svg path{
+        stroke: $color-black;
+    }
+
+    .header-input {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
     }
 }

@@ -181,15 +181,40 @@
         height: 557px;
 
         &-all {
-            width: 440px;
-            height: 365px;
-            gap: 0;
-
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-14, 60px) 126px;
+            flex-wrap: wrap;
+            
             &-text {
-                width: 123px;
+                width: 130px;
                 height: 135px;
             }
         }
     }
-    
+}
+
+@media screen and (max-width: 478px) {
+    .footer {
+        width: 100%;
+
+        &-luminae {
+            display: none;
+        }
+    }
+
+    .footer-top {
+        padding: 60px 16px
+    }
+    .footer-botton-top-icons-right {
+        display: none;
+    }
+
+    .footer-botton-end  {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
 }

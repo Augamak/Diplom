@@ -178,3 +178,19 @@
     }
     
 }
+
+@media screen and (max-width: 478px) {
+    .two {
+        width: 100%;
+
+        &-top {
+            padding: 24px 20px;
+        }
+    }
+
+    .two-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+}
