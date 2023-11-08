@@ -109,9 +109,11 @@
 
             &-item {
                 color: $dark-gray;
-                display: flex;
                 font-family: Lato;
                 font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                display: flex;
                 line-height: 20px;
             
 
@@ -429,5 +431,9 @@ object {
     }
     .header-input-producs-text-categories-arrow-vl1-search :hover {
         cursor: pointer;
+    }
+
+    .span {
+        display: block;
     }
 }

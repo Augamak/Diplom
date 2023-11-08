@@ -212,8 +212,13 @@
         &-all {
             gap: var(--spacing-14, 60px) 60px;
         }
-
     }
+
+    .footer-botton {
+        display: flex;
+        justify-content: center;
+    }
+    
     .footer-botton-top-icons-right {
         display: none;
     }

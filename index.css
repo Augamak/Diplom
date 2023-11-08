@@ -138,9 +138,11 @@ body {
 }
 .header-navigation-right-items-item {
   color: #555555;
-  display: flex;
   font-family: Lato;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
   line-height: 20px;
 }
 .header-navigation-right-items-item-link {
@@ -413,6 +415,9 @@ object {
   }
   .header-input-producs-text-categories-arrow-vl1-search :hover {
     cursor: pointer;
+  }
+  .span {
+    display: block;
   }
 }
 .menu {
@@ -729,7 +734,7 @@ object {
   justify-content: center;
   align-items: center;
 }
-.two-cards-bag :hover {
+.two-cards-bag:hover {
   cursor: pointer;
   box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
   background-color: #FFFFFF;
@@ -852,6 +857,7 @@ object {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    overflow: hidden;
   }
   .two-top {
     padding: 24px 20px;
@@ -941,6 +947,57 @@ object {
   gap: 4px;
 }
 
+.cards2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 8px;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: none;
+}
+.cards2-card {
+  width: 407px;
+  height: 437px;
+  display: flex;
+  border-radius: 8px;
+}
+.cards2-card-new {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  border-radius: 8px;
+}
+.cards2-card-new-green {
+  border: none;
+  background-color: #00A95D;
+  border-radius: 4px;
+  position: absolute;
+  margin: 10px;
+}
+.cards2-card-new-green :hover {
+  cursor: pointer;
+}
+.cards2-card-new-green-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 3px 6px;
+  gap: 4px;
+}
+.cards2-card-new-green-text-img {
+  line-height: 0;
+  gap: 4px;
+}
+
 .card-womans {
   display: inline-block;
   width: 100%;
@@ -951,6 +1008,11 @@ object {
 
 .card-text {
   color: #FFFFFF;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -969,6 +1031,10 @@ object {
 }
 .card-text-name-cool-dotted {
   color: #C4C4C4;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   padding-bottom: 10%;
 }
 
@@ -1010,6 +1076,7 @@ object {
     display: flex;
     align-items: center;
     flex-direction: column;
+    display: none;
   }
   .cards-card {
     width: 811px;
@@ -1018,6 +1085,11 @@ object {
   .cards-card-new {
     width: 811px;
     height: 437px;
+  }
+  .cards2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .card-womans {
     width: 811px;
@@ -1029,6 +1101,7 @@ object {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    overflow: hidden;
   }
   .cards {
     width: 100%;
@@ -1055,6 +1128,9 @@ object {
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+  }
+  .cards2 {
+    display: none;
   }
 }
 .four {
@@ -1100,7 +1176,7 @@ object {
   width: 300px;
   height: 480px;
 }
-.four-card :hover {
+.four-card:hover {
   cursor: pointer;
   box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.05);
   background-color: #FFFFFF;
@@ -1214,6 +1290,7 @@ object {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    overflow: hidden;
   }
   .four-top {
     padding: 24px 20px;
@@ -1353,7 +1430,7 @@ object {
 }
 @media screen and (max-width: 478px) {
   .five {
-    width: 438px;
+    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0;
@@ -1545,7 +1622,7 @@ object {
 }
 @media screen and (max-width: 478px) {
   .seven {
-    width: 438px;
+    width: 100%;
     margin: 0;
     padding: 20px;
   }
@@ -1740,6 +1817,10 @@ object {
   .footer-top-all {
     gap: var(--spacing-14, 60px) 60px;
   }
+  .footer-botton {
+    display: flex;
+    justify-content: center;
+  }
   .footer-botton-top-icons-right {
     display: none;
   }
@@ -1749,4 +1830,8 @@ object {
   hr {
     display: none;
   }
+}
+@font-face {
+  font-family: Lato;
+  src: url(./src/fonts/Lato-Black.ttf);
 }/*# sourceMappingURL=index.css.map */
