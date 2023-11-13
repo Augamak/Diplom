@@ -319,12 +319,11 @@ object {
 
 @media screen and (max-width: 478px) {
     .header {
-        width: 100%;
         padding-left: 20px;
         padding-right: 20px;
+        width: 100%;
         display: flex;
         justify-content: end;
-        gap: var(--spacing-14, 0px) 0px;
         flex-wrap: nowrap;
         flex-direction: row;
     }
@@ -370,6 +369,24 @@ object {
         padding: 0;
         padding-left: 30px;
     }
+
+    .header-input-producs-text-categories {
+        position: relative;
+        left: 60px;
+
+        &-arrow {
+            display: flex;
+            position: relative;
+            left: 45px;
+
+            &-vl1 {
+                display: flex;
+                position: relative;
+                left: 20px;
+                height: 30px;
+            }
+        }
+    }
     .header-gray-categories {
         display: none;
     }
@@ -397,7 +414,7 @@ object {
         position: relative;
         padding: 0;
         bottom: 10px;
-        right: 7px;
+        right: 0px;
         gap: 0;
 
         &-icons {
@@ -424,6 +441,12 @@ object {
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
+        padding-left: 30px;
+
+        &-producs {
+            width: 425px;
+            height: 54px;
+        }
     }
 
     .header-input-producs-text-categories-arrow :hover {

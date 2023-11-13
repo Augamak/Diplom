@@ -110,8 +110,9 @@
                         line-height: 36px;
                         text-decoration-line: underline;
 
-                        
-                        
+                        &-img {
+                            width: 50%;
+                        } 
                     }
                 }
             }
@@ -133,11 +134,41 @@
 
 @media screen and (max-width: 478px) {
     .seven {
-        width: 100%;
-        margin: 0;
+        width: 478px;
+        height: 320px;
         padding: 20px;
+        margin: 0;
+
+
+        &-cards {
+            width: 438px;
+            height: 280px;
+        }
     }
     .seven-cards-card {
         display: none;
+    }
+
+    .seven-cards-card-text-left-never-shirts-all-img {
+        width: 50%;
+    }
+
+    .seven-cards-card-two-text {
+        padding: 32px 20px;
+    }
+    
+    .seven-cards-card-two-text-left-never {
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 5%;
+
+        &-shirts {
+            font-size: 18px;
+            padding-bottom: 5%;
+
+            &-all {
+                font-size: 18px;
+            }
+        }
     }
 }

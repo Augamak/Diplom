@@ -139,12 +139,32 @@
 
 @media screen and (max-width: 478px) {
     .five {
-        width: 100%;
+        width: 478px;
+        height: 320px;
         padding-left: 20px;
         padding-right: 20px;
         margin: 0;
     }
     .five-cards-card-two {
         display: none;
+    }
+
+    .five-cards-card-text {
+        padding: 32px 20px;
+    }
+
+    .five-cards-card-text-left-never {
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 5%;
+
+        &-shirts {
+            font-size: 18px;
+            padding-bottom: 5%;
+
+            &-all {
+                font-size: 18px;
+            }
+        }
     }
 }

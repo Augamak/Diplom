@@ -36,7 +36,7 @@ body {
 @media screen and (max-width: 478px) {
   .container {
     width: 100%;
-    padding-top: 32px;
+    padding: 32px 0px;
   }
   .footer {
     width: 100%;
@@ -317,12 +317,11 @@ object {
 
 @media screen and (max-width: 478px) {
   .header {
-    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    width: 100%;
     display: flex;
     justify-content: end;
-    gap: var(--spacing-14, 0px) 0px;
     flex-wrap: nowrap;
     flex-direction: row;
   }
@@ -362,6 +361,21 @@ object {
     padding: 0;
     padding-left: 30px;
   }
+  .header-input-producs-text-categories {
+    position: relative;
+    left: 60px;
+  }
+  .header-input-producs-text-categories-arrow {
+    display: flex;
+    position: relative;
+    left: 45px;
+  }
+  .header-input-producs-text-categories-arrow-vl1 {
+    display: flex;
+    position: relative;
+    left: 20px;
+    height: 30px;
+  }
   .header-gray-categories {
     display: none;
   }
@@ -387,7 +401,7 @@ object {
     position: relative;
     padding: 0;
     bottom: 10px;
-    right: 7px;
+    right: 0px;
     gap: 0;
   }
   .header-gray-icons {
@@ -409,6 +423,11 @@ object {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    padding-left: 30px;
+  }
+  .header-input-producs {
+    width: 425px;
+    height: 54px;
   }
   .header-input-producs-text-categories-arrow :hover {
     cursor: pointer;
@@ -854,13 +873,13 @@ object {
 }
 @media screen and (max-width: 478px) {
   .two {
-    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    width: 100%;
     overflow: hidden;
   }
   .two-top {
-    padding: 24px 20px;
+    padding: 24px 0px;
   }
   .two-cards {
     display: flex;
@@ -1120,7 +1139,7 @@ object {
     width: 100%;
   }
   .three-top {
-    padding: 24px 20px;
+    padding: 24px 0px;
   }
   .three-top-flash {
     font-family: Lato;
@@ -1430,13 +1449,29 @@ object {
 }
 @media screen and (max-width: 478px) {
   .five {
-    width: 100%;
+    width: 478px;
+    height: 320px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0;
   }
   .five-cards-card-two {
     display: none;
+  }
+  .five-cards-card-text {
+    padding: 32px 20px;
+  }
+  .five-cards-card-text-left-never {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 5%;
+  }
+  .five-cards-card-text-left-never-shirts {
+    font-size: 18px;
+    padding-bottom: 5%;
+  }
+  .five-cards-card-text-left-never-shirts-all {
+    font-size: 18px;
   }
 }
 .six {
@@ -1608,6 +1643,9 @@ object {
   line-height: 36px;
   text-decoration-line: underline;
 }
+.seven-cards-card-two-text-left-never-shirts-all-img {
+  width: 50%;
+}
 
 .seven-img {
   width: 100%;
@@ -1622,12 +1660,35 @@ object {
 }
 @media screen and (max-width: 478px) {
   .seven {
-    width: 100%;
-    margin: 0;
+    width: 478px;
+    height: 320px;
     padding: 20px;
+    margin: 0;
+  }
+  .seven-cards {
+    width: 438px;
+    height: 280px;
   }
   .seven-cards-card {
     display: none;
+  }
+  .seven-cards-card-text-left-never-shirts-all-img {
+    width: 50%;
+  }
+  .seven-cards-card-two-text {
+    padding: 32px 20px;
+  }
+  .seven-cards-card-two-text-left-never {
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 5%;
+  }
+  .seven-cards-card-two-text-left-never-shirts {
+    font-size: 18px;
+    padding-bottom: 5%;
+  }
+  .seven-cards-card-two-text-left-never-shirts-all {
+    font-size: 18px;
   }
 }
 .footer-luminae {
@@ -1688,6 +1749,7 @@ object {
   display: flex;
   align-items: center;
   border: none;
+  padding-left: 10px;
 }
 .luminae-imput-email {
   display: flex;
@@ -1806,6 +1868,7 @@ object {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 40px;
   }
   .footer-luminae {
     display: none;
